@@ -24,3 +24,6 @@ Here are the steps that are done in the script mentioned above: (The script file
 - Combine with Subject and activity in the Merged set.
 - Select features that are mean() and Std()
 - Then produce the second clean data set.
+ 
+**Note** : We can run the script in a single go. The libraby required is loaded at the begining of the script. The data files should be present in the working directory for them to work wihout any errors.
+

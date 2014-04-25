@@ -2,11 +2,6 @@ CodeBook - Getting and Cleaning Data Project
 ========================================================
 
 
-
-
-
-
-
 **Assumptions:**
 - For **"Extracts only the measurements on the mean and standard deviation for each measurement"** : It was assumed that these only represent the features that have **-mean()** or **-std()** in their names.  
 
@@ -38,17 +33,19 @@ CodeBook - Getting and Cleaning Data Project
       - **Rest** : 66 variables for mean and standard deviation for each measurement. All being numeric.
 
   **Note :** This dataset returns summary for only those activities that the subject has data for. For instance if Subject 1 has only data for SITTING then only one row is present in this dataset for Subject 1.
-  
- **Other objects **
- - X_train and X_test : Training and Test data sets.
- - X_merged : Merged data set (RAW, without further cleaning)
- - y_test and y_train : Training and Test data labels.
- - y_merged : Merged Labels.
- - subject_test and subject_train : Training and Test data subjects.
- - subject_merged : Merged Subjects.
- - activity_labels : Activity Labels dataframe.
- - features : Feature dataframe.
- - needed_features : Contains the subset of features that are of interst, ie having -mean() or -std() in their names.
- - X_melt : Transformed to have features in one column as variable for further processing bu dcast.
- - X : Secondary clean dataset as explained earlier.
+
+
+**Other objects:**
+
+ - **X_train and X_test :** Training and Test data sets.
+ - **X_merged :** Merged data set (RAW, without further cleaning)
+ - **y_test and y_train :** Training and Test data labels.
+ - **y_merged :** Merged Labels.
+ - **subject_test and subject_train :** Training and Test data subjects.
+ - **subject_merged :** Merged Subjects.
+ - **activity_labels :** Activity Labels dataframe.
+ - **features :** Feature dataframe.
+ - **needed_features :** Contains the subset of features that are of interst, ie having -mean() or -std() in their names.
+ - **X_melt :** Transformed to have features in one column as variable for further processing bu dcast.
+ - **X :** Secondary clean dataset as explained earlier.
 
